@@ -6,10 +6,10 @@ module NC_MASH_TOP #(
     input      i_clk,
     input      i_rst_n,
 
-    input [P_INPUT_WIDTH-1:0] i_msb,
-    input [P_INPUT_WIDTH-1:0] i_isb1,
-    input [P_INPUT_WIDTH-1:0] i_isb2,
-    input [P_INPUT_WIDTH-1:0] i_lsb,
+    input [P_DATA_WIDTH-1:0] i_msb,
+    input [P_DATA_WIDTH-1:0] i_isb1,
+    input [P_DATA_WIDTH-1:0] i_isb2,
+    input [P_DATA_WIDTH-1:0] i_lsb,
 
     output [3:0] o_frac
     
@@ -24,7 +24,7 @@ wire                    w_quantize1;
 wire                    w_quantize2;
 wire                    w_quantize3;
 
-wire                    w_network;
+wire [3:0]              w_network;
 
 
 INPUT_STAGE #(

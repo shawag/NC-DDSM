@@ -18,8 +18,8 @@ generate
         u0_DELAY_UNIT_msb(
         	.i_clk   	( i_clk    ),
         	.i_rst_n 	( i_rst_n  ),
-        	.i_in    	( i_network     ),
-        	.o_delay 	( o_frac  )
+        	.i_in    	( i_network[i]     ),
+        	.o_delay 	( o_frac[i]  )
         );
     end
 endgenerate
