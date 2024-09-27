@@ -1,3 +1,4 @@
+`include "Timescale.v"
 module NC_MASH #(
     parameter P_DATA_WIDTH = 6
 )

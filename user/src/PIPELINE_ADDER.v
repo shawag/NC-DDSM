@@ -1,6 +1,8 @@
+`include "Timescale.v"
 module PIPELINE_ADDER #(
     parameter P_DATA_WIDTH = 6
-)(  
+)
+(  
     input               i_clk   ,
     input               i_rst_n ,
     input [P_DATA_WIDTH-1:0] i_a     ,

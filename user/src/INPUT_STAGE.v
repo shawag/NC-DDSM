@@ -1,3 +1,4 @@
+`include "Timescale.v"
 module INPUT_STAGE #(
     parameter P_INPUT_WIDTH = 6
 )

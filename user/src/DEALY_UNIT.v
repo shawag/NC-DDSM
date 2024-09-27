@@ -1,3 +1,4 @@
+`include "Timescale.v"
 module DELAY_UNIT #(
     parameter P_DELAY_CYCLE = 2
 )

@@ -1,3 +1,4 @@
+`include "Timescale.v"
 module ADDER_4_NCNET (
     input  [3:0]    i_add1,
     input  [3:0]    i_add2,

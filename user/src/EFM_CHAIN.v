@@ -1,3 +1,4 @@
+`include "Timescale.v"
 module EFM_CHAIN #(
     parameter P_DATA_WIDTH = 6
 )

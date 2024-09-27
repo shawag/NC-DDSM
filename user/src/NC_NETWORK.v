@@ -1,3 +1,4 @@
+`include "Timescale.v"
 module NC_NETWORK (
     input      i_clk,
     input      i_rst_n,

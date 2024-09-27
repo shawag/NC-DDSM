@@ -1,3 +1,4 @@
+`include "Timescale.v"
 module COMPLEMENT_TRANS #(
     parameter P_DATA_WIDTH = 4
 )

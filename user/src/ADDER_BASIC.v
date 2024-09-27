@@ -1,3 +1,4 @@
+`include "Timescale.v"
 module ADDER_BASIC #(
     parameter P_DATA_WIDTH = 3
 )(

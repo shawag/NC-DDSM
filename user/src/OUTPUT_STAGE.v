@@ -1,3 +1,4 @@
+`include "Timescale.v"
 module OUTPUT_STAGE 
 (
     input                    i_clk,
