@@ -36,7 +36,7 @@ u0_EFM_CHAIN(
 	.i_level_data 	( i_level1_data  ),
 	.i_quantize1  	( w_quantize21   ),
 	.i_quantize2  	( w_quantize22   ),
-	.i_quantize3  	( i_quantize23   ),
+	.i_quantize3  	( w_quantize23   ),
 	.o_quantize1  	( o_quantize1   ),
 	.o_quantize2  	( o_quantize2   ),
 	.o_quantize3  	( o_quantize3   )
